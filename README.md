@@ -10,7 +10,7 @@ A collection of utilities to prep or modify video files to be played on an LED m
 -$ git clone https://github.com/deuxp/led_matrix_helpers_bash.git
 ```
 
-Make any executable globally available.
+OPTIONAL: Make any executable globally available.
 **Mac & linux**
 
 ```bash
@@ -18,11 +18,6 @@ Make any executable globally available.
 ```
 
 The script still works if you don't want to make it global. Be sure to be to execute it from within the working directory:
-
-```bash
--$ cd led_matrix_helpers_bash/src/
--$ ledsca -i [INPUT_FILE] -o [OUTPUT_FILE] -w [WIDTH] -h [HEIGHT]
-```
 
 ## Helpers
 
@@ -33,6 +28,7 @@ ie., if your matrix is 64x64, scale the video to 64 x 64 pixels.
 All 4 flags are mandatory.
 
 ```bash
+-$ cd led_matrix_helpers_bash/src/
 -$ ledsca -i [INPUT_FILE] -o [OUTPUT_FILE] -w [WIDTH] -h [HEIGHT]
 ```
 
