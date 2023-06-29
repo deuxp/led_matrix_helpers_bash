@@ -1,0 +1,14 @@
+echo "getting options .."
+# input width height output
+while getopts i:w:h:o: flag
+do
+    case "${flag}" in
+        i) input=${OPTARG};;
+        w) width=${OPTARG};;
+        h) height=${OPTARG};;
+        o) output=${OPTARG};;
+    esac
+done
+echo "starting conversion .."
+ffmpeg -i $input -vf "scale='min($width,iw)':min'($height,ih)':force_original_aspect_ratio=decrease,pad=$width:$height:-1:-1:color=black" $output
+echo ".. done"
