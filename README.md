@@ -13,11 +13,9 @@ Make any executable globally available.
 
 ### ledsca
 
-This utility will scale a video to the size of the LED matrices that you are using. For best results use a 1:1 sizing,
+Short for `LED scaler` This utility will scale a video to the size of the LED matrices that you are using. For best results use a 1:1 sizing,
 ie., if your matrix is 64x64, scale the video to 64 x 64 pixels.
 All 4 flags are mandatory.
-
-#### options
 
 ```bash
 -$ ledsca -i [INPUT_FILE] -o [OUTPUT_FILE] -w [WIDTH] -h [HEIGHT]
