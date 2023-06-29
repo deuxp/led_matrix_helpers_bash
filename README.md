@@ -27,7 +27,7 @@ Or you can download it [here](https://ffmpeg.org/download.html).
 -$ sudo [executable] chmod +x && mv [executable] /usr/local/bin/[executable]
 ```
 
-## Utility
+## Utils
 
 ### ledsca
 
