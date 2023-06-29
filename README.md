@@ -40,7 +40,7 @@ All 4 flags are mandatory.
 ```
 
 For best results, map the amount of video pixels to the amount of LEDs in your configuration.
-ie., if your matrix is 64x64 LEDs, scale the video to 64x64 pixels as such:
+ie., if your matrix count is 64x64 LEDs, scale the video to 64x64 pixels as such:
 
 ```bash
 -$ ledsca -i [INPUT_FILE] -o [OUTPUT_FILE] -w 64 -h 64
