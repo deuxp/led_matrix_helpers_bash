@@ -11,6 +11,8 @@ Make any executable globally available.
 -$ sudo [executable] chmod +x && mv [executable] /usr/local/bin/[executable]
 ```
 
+## Helpers
+
 ### ledsca
 
 Short for `LED scaler` This utility will scale a video to the size of the LED matrices configuration. For best results use a 1:1 sizing,
