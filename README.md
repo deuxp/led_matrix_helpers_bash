@@ -11,8 +11,7 @@ A collection of utilities to prep or modify video files to be played on an LED m
 ```
 
 **Install Dependencies**
-The utilities in this repo depend on the ffmpeg library. You can check from the command line whether or not it is already
-installed by checking the version. You can download it [here](https://ffmpeg.org/download.html).
+The utilities in this repo depend on the ffmpeg library. Check the version from the command line. Or you can download it [here](https://ffmpeg.org/download.html).
 
 ```bash
 -$ ffmpeg -version
