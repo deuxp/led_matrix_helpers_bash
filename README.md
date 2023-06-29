@@ -31,7 +31,7 @@ All 4 flags are mandatory.
 ```
 
 For best results, map the size of the video (pixels).
-ie., if your matrix is 64x64 LEDs, scale the video to 64x64 pixels:
+ie., if your matrix is 64x64 LEDs, scale the video to 64x64 pixels as such:
 
 ```bash
 -$ cd led_matrix_helpers_bash/src/
