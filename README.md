@@ -18,8 +18,6 @@ A collection of utilities to prep or modify video files to be played on an LED m
 -$ sudo [executable] chmod +x && mv [executable] /usr/local/bin/[executable]
 ```
 
-The script still works if you don't want to make it global. Be sure to be to execute it from within the working directory:
-
 ## Helpers
 
 ### ledsca
