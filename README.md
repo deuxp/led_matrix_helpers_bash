@@ -18,7 +18,7 @@ A collection of utilities to prep or modify video files to be played on an LED m
 -$ sudo [executable] chmod +x && mv [executable] /usr/local/bin/[executable]
 ```
 
-## Helpers
+## Utility
 
 ### ledsca
 
