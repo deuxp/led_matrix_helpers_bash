@@ -39,11 +39,10 @@ All 4 flags are mandatory.
 -$ ledsca -i [INPUT_FILE] -o [OUTPUT_FILE] -w [WIDTH] -h [HEIGHT]
 ```
 
-For best results, map the size of the video (pixels).
+For best results, map the amount of video pixels to the amount of LEDs in your configuration.
 ie., if your matrix is 64x64 LEDs, scale the video to 64x64 pixels as such:
 
 ```bash
--$ cd led_matrix_helpers_bash/src/
 -$ ledsca -i [INPUT_FILE] -o [OUTPUT_FILE] -w 64 -h 64
 ```
 
