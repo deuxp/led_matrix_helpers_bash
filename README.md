@@ -10,7 +10,8 @@ A collection of utilities to prep or modify video files to be played on an LED m
 -$ git clone https://github.com/deuxp/led_matrix_helpers_bash.git
 ```
 
-OPTIONAL: Make any executable globally available.
+**OPTIONAL: Make executables globally available:**
+
 **Mac & linux**
 
 ```bash
