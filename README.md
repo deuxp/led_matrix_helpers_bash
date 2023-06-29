@@ -35,7 +35,7 @@ Short for `LED scaler` This utility will scale a video to the size of the LED ma
 All 4 flags are mandatory.
 
 ```bash
--$ cd led_matrix_helpers_bash/src/
+-$ cd led_matrix_helpers_bash/utils/
 -$ ledsca -i [INPUT_FILE] -o [OUTPUT_FILE] -w [WIDTH] -h [HEIGHT]
 ```
 
