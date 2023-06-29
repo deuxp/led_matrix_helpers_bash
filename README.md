@@ -10,6 +10,14 @@ A collection of utilities to prep or modify video files to be played on an LED m
 -$ git clone https://github.com/deuxp/led_matrix_helpers_bash.git
 ```
 
+**Install Dependencies**
+The utilities in this repo depend on the ffmpeg library. You can check from the command line whether or not it is already
+installed by checking the version. You can download it [here](https://ffmpeg.org/download.html).
+
+```bash
+-$ ffmpeg -version
+```
+
 **OPTIONAL: Make executables globally available:**
 
 **Mac & linux**
