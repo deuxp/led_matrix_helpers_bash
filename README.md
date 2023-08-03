@@ -19,12 +19,18 @@ The utilities in this repo depend on the ffmpeg library. Check the version from 
 
 Or you can download it [here](https://ffmpeg.org/download.html).
 
-**OPTIONAL: Make executables globally available:**
+**Make executable:**
 
 **Mac & linux**
 
 ```bash
 -$ sudo [executable] chmod +x && mv [executable] /usr/local/bin/[executable]
+```
+
+**Make globally available (optional):**
+
+```bash
+-$ sudo mv [executable] /usr/local/bin/[executable]
 ```
 
 ## Utils
@@ -45,6 +51,11 @@ ie., if your matrix count is 64x64 LEDs, scale the video to 64x64 pixels as such
 ```bash
 -$ ledsca -i [INPUT_FILE] -o [OUTPUT_FILE] -w 64 -h 64
 ```
+
+### play64
+
+Plays a video file using the [led-matrix-repo](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/utils) with a resolution of 64x64, pre-processed by the latter, ledsca utility.
+Make 
 
 ## Dependencies
 
