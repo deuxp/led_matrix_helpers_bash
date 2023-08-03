@@ -55,6 +55,14 @@ ie., if your matrix count is 64x64 LEDs, scale the video to 64x64 pixels as such
 ### play64
 
 Plays a video file using the [led-matrix-repo](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/utils) with a resolution of 64x64, pre-processed by the latter, ledsca utility.
+
+It takes one argument, which is the $PATH to a folder containing video files that have been pre-processed by the `ledsca` utility. It will play each file in the folder consecutively.
+
+* Note: must use the `*` wildcard symbol after the filename as in the example below.
+
+```bash
+-$ play64 YOUR_VIDEO_FOLDER/*
+```
  
 
 ## Dependencies
