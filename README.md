@@ -24,7 +24,7 @@ Or you can download it [here](https://ffmpeg.org/download.html).
 **Mac & linux**
 
 ```bash
--$ sudo [executable] chmod +x && mv [executable] /usr/local/bin/[executable]
+-$ sudo [executable] chmod +x
 ```
 
 **Make globally available (optional):**
