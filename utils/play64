@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo ./video-viewer -Ff -T4 --led-brightness=90 --led-limit-refresh=200 --led-show-refresh  --led-gpio-mapping=adafruit-hat --led-no-hardware-pulse --led-cols=64 --led-rows=64 $@
