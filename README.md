@@ -55,7 +55,7 @@ ie., if your matrix count is 64x64 LEDs, scale the video to 64x64 pixels as such
 ### play64
 
 Plays a video file using the [led-matrix-repo](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/utils) with a resolution of 64x64, pre-processed by the latter, ledsca utility.
-Make 
+ 
 
 ## Dependencies
 
